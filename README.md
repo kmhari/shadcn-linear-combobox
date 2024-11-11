@@ -1,24 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shadcn Linear Combobox
 
-## Getting Started
+This is a React component that replicates the combobox used by Linear to set the priority of a task. It is built using Shadcn UI components.
 
-First, run the development server:
+## Installation
+
+You can install the package using npm:
+
+```bash
+npm install shadcn-linear-combobox
+```
+
+## Usage
+
+Here is an example of how to use the `LinearCombobox` component in your project:
+
+```jsx
+import React from 'react';
+import { LinearCombobox } from 'shadcn-linear-combobox';
+
+function App() {
+  return (
+    <div>
+      <h1>Task Priority</h1>
+      <LinearCombobox />
+    </div>
+  );
+}
+
+export default App;
+```
+
+## Development
+
+To run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
